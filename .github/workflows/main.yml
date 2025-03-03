@@ -23,13 +23,20 @@ jobs:
 
       - name: Install dependencies
         run: npm install
+        working-directory: ./Apps/WebDojo
 
       - name: Start WebDojo server
-        run: npm run dev --prefix Apps/WebDojo
+        run: npm run dev &
+        working-directory: ./Apps/WebDojo
         env:
           CI: true
 
+      - name: Install Cypress dependencies
+        run: npm install
+        working-directory: ./Chatbot
+
       - name: Run Cypress tests
         run: npx cypress run
+        working-directory: ./Chatbot
         env:
           CI: true
