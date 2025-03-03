@@ -45,7 +45,8 @@ O **Chatbot** contém testes E2E escritos em Cypress para validar a funcionalida
 ### WebDojo
 
 1. Navegue até o diretório [`Apps/WebDojo`](Apps/WebDojo ).
-2. Execute o comando `yarn dev` para iniciar o servidor.
+2. Execute o comando `npm install` para instalar as depencias
+3. Execute o comando `npm run dev` para iniciar o servidor.
 
 ### Chatbot
 
