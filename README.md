@@ -1,4 +1,4 @@
-# Chatbot - Consulta de Encomendas
+# Chatbot - Consulta de Encomendas - Testes com Cypress
 
 ## Estrutura do Projeto
 
