@@ -25,7 +25,7 @@ jobs:
         run: npm install
 
       - name: Start WebDojo server
-        run: npm run dev --prefix Apps
+        run: npm run dev --prefix Apps/WebDojo
         env:
           CI: true
 
